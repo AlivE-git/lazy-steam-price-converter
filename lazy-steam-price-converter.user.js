@@ -2,7 +2,7 @@
 // @name         Lazy steam price converter
 // @description  too lazy
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @downloadURL  https://github.com/AlivE-git/lazy-steam-price-converter/raw/main/lazy-steam-price-converter.user.js
 // @author       AlivE_
 // @match        https://store.steampowered.com/*
