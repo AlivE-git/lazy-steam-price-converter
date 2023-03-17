@@ -2,7 +2,7 @@
 // @name         Lazy steam price converter
 // @description  too lazy
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @downloadURL  https://github.com/AlivE-git/lazy-steam-price-converter/raw/main/lazy-steam-price-converter.user.js
 // @author       AlivE_
 // @match        https://store.steampowered.com/*
@@ -35,10 +35,10 @@
             prc = prc.replace(' ', '')
             prc = prc.replace(',', '.')
             prc = prc.replace('₸', '') * coef;
-            console.log(prc);
+            //console.log(prc);
 			if (prc_orig != 'Бесплатно')
-                ths[i].innerHTML = prc_orig + "\n~(" + Math.round(prc) + 'Р)';
+                ths[i].innerHTML = prc_orig + "\n(" + Math.round(prc) + 'Р)';
         }
     }
 
-})(); ц
+})();
