@@ -14,12 +14,17 @@
 (function() {
     'use strict';
 
-    let coef = 0.18;
+    let coef = 0.197;
 
     conv("discount_original_price");
     conv("discount_final_price");
     conv("game_purchase_price");
     conv("game_area_dlc_price");
+
+    conv("original_price price");
+    conv("price");
+    conv("cart_estimated_total");
+
 
     function conv(div_name)
     {
